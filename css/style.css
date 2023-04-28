@@ -356,6 +356,15 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+    
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
 }
 
 .box-intro .table-cell {
@@ -687,6 +696,14 @@ footer img {
 }
 
 
+/* ICON INSTA */
+
+ion-icon {
+    color: #30b0e3;
+    height: 30px;
+    width: 30px;
+}
+
 /* PAGINA SOBRE MI */
 
 .titol {
@@ -700,7 +717,83 @@ footer img {
     text-align: center;
 }
 
+.titol2 {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.titol3 {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs3.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadatreballs3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.titolSobreMi {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadaSobreMi.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadaSobreMi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.titolCV {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadaCV.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadaCV.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
 .titol h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.titol2 h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.titol3 h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.titolSobreMi h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.titolCV h1 {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
