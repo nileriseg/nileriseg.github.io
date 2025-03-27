@@ -13,14 +13,14 @@
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
 
 </head>
-<body>
 
+<body>
     <div class="container-fluid">
         <!-- Menu -->
         <header class="box-header">
@@ -39,11 +39,52 @@
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="treballs.html">Trabajos</a></li>
                 <li><a href="contacte.html">Contáctame</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="https://www.instagram.com/nilus_works/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/nilus_works/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
             </ul>
         </nav>
     </div>
     <!-- desplegable -->
+
+
+
+
+
+
+    <div class="line-container">
+        <svg viewBox="0 0 340 333">
+
+            <path class="path" fill="white" stroke="black" stroke-width="4" d="M66.039,133.545c0,0-21-57,18-67s49-4,65,8
+	s30,41,53,27s66,4,58,32s-5,44,18,57s22,46,0,45s-54-40-68-16s-40,88-83,48s11-61-11-80s-79-7-70-41
+	C46.039,146.545,53.039,128.545,66.039,133.545z" />
+
+        </svg>
+    </div>
+    <script>
+        let path = document.querySelector('path');
+        let pathLenght = path.getTotalLenght();
+
+        path.style.strokeDasharray = pathLenght + ' ' + pathLenght;
+        path.style.strokeDashoffset = pathLenght;
+
+        window.addEventListener('scroll', () => {
+            var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+            var drawLenght = pathLenght * scrollPercentage;
+            path.style.strokeDashoffset = pathLenght - drawLenght;
+
+            const target = document.querySelectorAll('.scroll');
+        })
+
+    </script>
+
+
+
+
+
+
+
+
 
 
     <!-- titol -->
@@ -68,7 +109,7 @@
         <div class="col-md-9">
             <p>Graduado del CFGS en Animación 3D, Juegos y Entornos interactivos en la escuela Teknos (UVIC)</p>
             <p>También tengo el título de Técnico de Artes Plásticas y Diseño en Asistencia al Producto Gráfico Impreso. 200h de prácticas en Gráficas DIAC en el Seminario de Vic y 383h en VOTV Granollers. Domino una gran variedad de programas como Adobe Package (Photoshop, Illustrator, Indesign), Maya, etc.</p>
-            
+
             <p>En Zitro trabajé con numerosos proyectos, especialmente de VideoSlots como ColossusFire, MightyHammerLinkUp y LightTemple. Además aporté mi grano de arena en numerosos proyectos de bingos, slots y pantallas circulares promocionales.</p>
         </div>
 
